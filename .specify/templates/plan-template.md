@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Real-Time First**: Architecture supports 60fps real-time updates via Phoenix PubSub
+- [ ] **Functional Game Logic**: State transitions are pure functions with immutable data structures
+- [ ] **LiveView Component Architecture**: Game elements are properly componentized
+- [ ] **Performance-First Rendering**: Design targets 60fps with efficient DOM updates
+- [ ] **Test-Driven Development**: Test plan covers game mechanics, multiplayer, and performance
 
 ## Project Structure
 
