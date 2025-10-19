@@ -3,7 +3,7 @@ defmodule ShooterGame.Game.State do
   Game state entity representing the entire game state.
   """
 
-  alias ShooterGame.Game.{Player, Enemy, Bullet}
+  alias ShooterGame.Game.{Player, Enemy, Bullet, DifficultyLevel}
 
   @enforce_keys [:player, :status]
   defstruct [
@@ -30,7 +30,11 @@ defmodule ShooterGame.Game.State do
     # milliseconds since game start
     elapsed_time: 0,
     # 3 minutes in milliseconds
-    time_limit: 180_000
+    time_limit: 180_000,
+    # %DifficultyLevel{}
+    difficulty_level: nil,
+    # integer (milliseconds)
+    last_difficulty_update: 0
   ]
 
   @type status :: :start | :playing | :game_over
@@ -47,7 +51,9 @@ defmodule ShooterGame.Game.State do
           game_height: pos_integer(),
           last_spawn_time: integer(),
           elapsed_time: non_neg_integer(),
-          time_limit: pos_integer()
+          time_limit: pos_integer(),
+          difficulty_level: DifficultyLevel.t() | nil,
+          last_difficulty_update: non_neg_integer()
         }
 
   @doc """
@@ -57,7 +63,9 @@ defmodule ShooterGame.Game.State do
     %__MODULE__{
       player: Player.new(400, 500),
       high_score: high_score,
-      status: :start
+      status: :start,
+      difficulty_level: DifficultyLevel.new(1),
+      last_difficulty_update: 0
     }
   end
 
@@ -70,6 +78,8 @@ defmodule ShooterGame.Game.State do
       | status: :playing,
         score: 0,
         elapsed_time: 0,
+        difficulty_level: DifficultyLevel.new(1),
+        last_difficulty_update: 0,
         last_spawn_time: System.monotonic_time(:millisecond)
     }
   end
@@ -95,4 +105,36 @@ defmodule ShooterGame.Game.State do
   def add_score(%__MODULE__{} = state, points) when points > 0 do
     %{state | score: state.score + points}
   end
+
+  @doc """
+  Updates difficulty level based on elapsed time.
+
+  Difficulty increases every 10 seconds (10,000 milliseconds).
+  """
+  def update_difficulty(%__MODULE__{status: :playing} = state) do
+    current_level_duration = state.elapsed_time - state.last_difficulty_update
+
+    if current_level_duration >= 10_000 do
+      new_difficulty = DifficultyLevel.next_level(state.difficulty_level)
+
+      %{
+        state
+        | difficulty_level: new_difficulty,
+          last_difficulty_update: state.elapsed_time
+      }
+    else
+      state
+    end
+  end
+
+  def update_difficulty(state), do: state
+
+  @doc """
+  Checks if difficulty should increase.
+  """
+  def should_increase_difficulty?(%__MODULE__{status: :playing} = state) do
+    state.elapsed_time - state.last_difficulty_update >= 10_000
+  end
+
+  def should_increase_difficulty?(_state), do: false
 end
