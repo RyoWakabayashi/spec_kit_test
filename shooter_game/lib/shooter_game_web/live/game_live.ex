@@ -26,6 +26,9 @@ defmodule ShooterGameWeb.GameLive do
             1000
           )}s
         </div>
+        <div class="difficulty-level">
+          Level: {@game_state.difficulty_level.level}
+        </div>
       </div>
 
       <canvas
@@ -187,6 +190,7 @@ defmodule ShooterGameWeb.GameLive do
   defp update_game_state(state) do
     state
     |> State.update_elapsed_time(33)
+    |> State.update_difficulty()
     |> update_bullets()
     |> spawn_enemies()
     |> update_enemies()
@@ -212,7 +216,24 @@ defmodule ShooterGameWeb.GameLive do
   end
 
   defp update_enemies(state) do
-    enemies = Enum.map(state.enemies, &ShooterGame.Game.Enemy.move/1)
+    current_time = System.monotonic_time(:millisecond)
+
+    enemies =
+      Enum.map(state.enemies, fn enemy ->
+        # Apply movement pattern if enemy has one
+        if enemy.movement_pattern && enemy.movement_pattern.pattern_type do
+          ShooterGame.Game.Enemy.update_movement(
+            enemy,
+            current_time,
+            state.game_width,
+            state.game_height
+          )
+        else
+          # Fallback to simple linear movement
+          ShooterGame.Game.Enemy.move(enemy)
+        end
+      end)
+
     %{state | enemies: enemies}
   end
 

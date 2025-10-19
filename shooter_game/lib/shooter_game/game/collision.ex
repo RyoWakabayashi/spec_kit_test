@@ -50,4 +50,20 @@ defmodule ShooterGame.Game.Collision do
   def detect_enemy_player_collisions(enemies, player) do
     Enum.any?(enemies, fn enemy -> check_collision(enemy, player) end)
   end
+
+  @doc """
+  Checks if a single bullet collides with the player.
+  Returns true if the bullet hits the player.
+  """
+  def bullet_to_player?(bullet, player) do
+    check_collision(bullet, player)
+  end
+
+  @doc """
+  Checks if any bullets in the list collide with the player.
+  Returns true if any bullet hits the player.
+  """
+  def bullets_to_player?(bullets, player) do
+    Enum.any?(bullets, fn bullet -> bullet_to_player?(bullet, player) end)
+  end
 end
