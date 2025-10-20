@@ -1,4 +1,4 @@
-RyoWakabayashi: Follow instructions in [speckit.specify.prompt.md](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.github/prompts/speckit.specify.prompt.md).
+RyoWakabayashi: Follow instructions in [speckit.specify.prompt.md](file://./speck_kit_test/.github/prompts/speckit.specify.prompt.md).
 開始画面で START ボタンをクリックすると、ゲーム画面に遷移する。ユーザーはマウスで自機を操作し、クリック中は継続的に弾を発射する。敵の弾が自機に当たるとゲームオーバー。自機の弾が敵に当たるとスコアアップ。最終的なスコアをブラウザ上のストレージに保存する。DBは不要。
 
 GitHub Copilot: 指示に従って、機能の仕様書を作成します。まず、提供された機能説明から短い名前を生成し、新しい機能ブランチを作成します。
@@ -15,17 +15,17 @@ Ran terminal command: .specify/scripts/bash/create-new-feature.sh --json "開始
 
 ## 3. テンプレートの読み込み 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/templates/spec-template.md) の読み取り
+[](file://./speck_kit_test/.specify/templates/spec-template.md) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/templates/spec-template.md#117-117) の 117 から 117 行を読み取り
+[](file://./speck_kit_test/.specify/templates/spec-template.md#117-117) の 117 から 117 行を読み取り
 
 ## 4. 仕様書の作成
 
 提供された機能説明に基づいて、テンプレートを使用して詳細な仕様書を作成します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/spec.md) が作成されました
+[](file://./speck_kit_test/specs/001-browser-shooter-game/spec.md) が作成されました
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/spec.md#1-1) の 1 から 50 行を読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/spec.md#1-1) の 1 から 50 行を読み取り
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -35,7 +35,7 @@ Ran terminal command: .specify/scripts/bash/create-new-feature.sh --json "開始
 ```
 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/spec.md#45-45) の 45 から 108 行を読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/spec.md#45-45) の 45 から 108 行を読み取り
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -45,9 +45,9 @@ Ran terminal command: .specify/scripts/bash/create-new-feature.sh --json "開始
 ```
 ## 5. 仕様品質チェックリストの作成 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/checklists) が作成されました
+[](file://./speck_kit_test/specs/001-browser-shooter-game/checklists) が作成されました
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/checklists/requirements.md) が作成されました
+[](file://./speck_kit_test/specs/001-browser-shooter-game/checklists/requirements.md) が作成されました
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -162,7 +162,7 @@ GitHub Copilot: ありがとうございます！ご回答に基づいて仕様�
 ```
 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/checklists/requirements.md#32-32) の 32 から 38 行を読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/checklists/requirements.md#32-32) の 32 から 38 行を読み取り
 
 "ファイル内の文字列の置換" を使用しています
 

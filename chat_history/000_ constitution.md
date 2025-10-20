@@ -1,17 +1,17 @@
-RyoWakabayashi: Follow instructions in [speckit.constitution.prompt.md](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.github/prompts/speckit.constitution.prompt.md).
+RyoWakabayashi: Follow instructions in [speckit.constitution.prompt.md](file://./speck_kit_test/.github/prompts/speckit.constitution.prompt.md).
 Phoenix LiveView で縦型のスクロールシューティングゲームを実装したい
 
 GitHub Copilot: 添付されたプロンプトの指示に従って、プロジェクトの憲法ファイルを更新します。まず、現在のワークスペース構造と既存の憲法テンプレートを確認しましょう。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test) の読み取り
+[](file://./speck_kit_test) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify) の読み取り
+[](file://./speck_kit_test/.specify) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/memory) の読み取り
+[](file://./speck_kit_test/.specify/memory) の読み取り
 
 既存の憲法テンプレートを読み込んで、プレースホルダーを確認しましょう。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/memory/constitution.md) の読み取り
+[](file://./speck_kit_test/.specify/memory/constitution.md) の読み取り
 
 プロジェクトの詳細を把握するため、READMEファイルや他の設定ファイルを確認しましょう。 
 
@@ -19,13 +19,13 @@ GitHub Copilot: 添付されたプロンプトの指示に従って、プロジ�
 
 `**/mix.exs` に一致するファイルを検索しました。一致するものはありません
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/templates) の読み取り
+[](file://./speck_kit_test/.specify/templates) の読み取り
 
 テンプレートファイルを確認して、現在のプロジェクト構造を理解しましょう。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/templates/plan-template.md#1-1) の 1 から 50 行を読み取り
+[](file://./speck_kit_test/.specify/templates/plan-template.md#1-1) の 1 から 50 行を読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/templates/spec-template.md#1-1) の 1 から 50 行を読み取り
+[](file://./speck_kit_test/.specify/templates/spec-template.md#1-1) の 1 から 50 行を読み取り
 
 ユーザーの入力「Phoenix LiveView で縦型のスクロールシューティングゲームを実装したい」に基づいて、プロジェクトの憲法を更新します。Phoenix LiveViewプロジェクトに適した原則を考えて憲法を作成します。 
 
@@ -45,7 +45,7 @@ Markdownの書式エラーを修正します。見出しの周りに適切な空
 ```
 次に、テンプレートファイルとの整合性を確認し、必要に応じて更新します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/templates/plan-template.md#25-25) の 25 から 40 行を読み取り
+[](file://./speck_kit_test/.specify/templates/plan-template.md#25-25) の 25 から 40 行を読み取り
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -63,19 +63,19 @@ plan-templateの末尾のスペースを修正します。
 ```
 他のテンプレートファイルも確認しましょう。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/templates/tasks-template.md#1-1) の 1 から 30 行を読み取り
+[](file://./speck_kit_test/.specify/templates/tasks-template.md#1-1) の 1 から 30 行を読み取り
 
 タスクテンプレートにゲーム開発特有の要素を追加する必要があるかを確認します。現在のテンプレートは汎用的なので、現時点では変更不要です。
 
 コマンドテンプレートディレクトリがあるかチェックしましょう。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/templates) の読み取り
+[](file://./speck_kit_test/.specify/templates) の読み取り
 
 commandsディレクトリがないようですが、プロンプトテンプレートファイルを確認して整合性をチェックしましょう。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.github) の読み取り
+[](file://./speck_kit_test/.github) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.github/prompts) の読み取り
+[](file://./speck_kit_test/.github/prompts) の読み取り
 
 プロンプトファイルをチェックして、憲法の参照が正しく行われているかを確認します。 
 
@@ -83,7 +83,7 @@ commandsディレクトリがないようですが、プロンプトテンプレ
 
 プロンプトファイルは正しく憲法ファイルを参照しているようです。最終的な憲法ファイルを確認しましょう。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/memory/constitution.md) の読み取り
+[](file://./speck_kit_test/.specify/memory/constitution.md) の読み取り
 
 憲法ファイルの更新が完了しました。最終的なサマリーを作成します。
 

@@ -1,4 +1,4 @@
-RyoWakabayashi: Follow instructions in [speckit.tasks.prompt.md](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.github/prompts/speckit.tasks.prompt.md).
+RyoWakabayashi: Follow instructions in [speckit.tasks.prompt.md](file://./speck_kit_test/.github/prompts/speckit.tasks.prompt.md).
 
 GitHub Copilot: I'll help you generate the tasks.md file following the SpecKit instructions. Let me start by running the prerequisites check and loading the design documents. 
 
@@ -6,29 +6,29 @@ Ran terminal command: .specify/scripts/bash/check-prerequisites.sh --json
 
 Now let me load all the available design documents: 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/plan.md) の読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/plan.md) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/spec.md) の読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/spec.md) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/data-model.md) の読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/data-model.md) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/research.md) の読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/research.md) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/quickstart.md) の読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/quickstart.md) の読み取り
 
 Now let me check if there are any contracts defined: 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/contracts) の読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/contracts) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/contracts/liveview-events.md) の読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/contracts/liveview-events.md) の読み取り
 
 Now let me check for the tasks template: 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/templates/tasks-template.md) の読み取り
+[](file://./speck_kit_test/.specify/templates/tasks-template.md) の読み取り
 
 Perfect! Now I have all the necessary information. Let me generate the tasks.md file based on the design documents and the template structure. I'll organize tasks by user story as per the instructions. 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/tasks.md) が作成されました
+[](file://./speck_kit_test/specs/001-browser-shooter-game/tasks.md) が作成されました
 
 Let me fix the markdown linting errors: 
 
@@ -58,7 +58,7 @@ Let me fix the markdown linting errors:
 
 "ファイル内の文字列の置換" を使用しています
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/tasks.md#310-310) の 310 から 320 行を読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/tasks.md#310-310) の 310 から 320 行を読み取り
 
 "ファイル内の文字列の置換" を使用しています
 

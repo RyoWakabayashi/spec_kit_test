@@ -1,4 +1,4 @@
-RyoWakabayashi: Follow instructions in [speckit.specify.prompt.md](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.github/prompts/speckit.specify.prompt.md).
+RyoWakabayashi: Follow instructions in [speckit.specify.prompt.md](file://./speck_kit_test/.github/prompts/speckit.specify.prompt.md).
 よりゲームの難易度を高くしてください。敵機が弾を発射するようにします。10秒間隔で、敵の動作、数を増やすようにしてください。最初は直線的な動きですが、徐々に曲線的で複雑な動きにするものとします。また、徐々に敵の耐性も上げてください
 
 GitHub Copilot: ユーザーの要求を分析して、仕様書を作成します。
@@ -14,23 +14,23 @@ Ran terminal command: .specify/scripts/bash/create-new-feature.sh --json "より
 
 良いです!ブランチとスペックファイルが作成されました。次にテンプレートを読み込みます。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/templates/spec-template.md) の読み取り
+[](file://./speck_kit_test/.specify/templates/spec-template.md) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/templates/spec-template.md#100-100) の 100 から 117 行を読み取り
+[](file://./speck_kit_test/.specify/templates/spec-template.md#100-100) の 100 から 117 行を読み取り
 
 テンプレートを理解しました。次に既存のゲーム仕様を確認します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/spec.md) の読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/spec.md) の読み取り
 
 既存の仕様を理解しました。これをベースに、難易度スケーリング機能の仕様書を作成します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/spec.md) が作成されました
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/spec.md) が作成されました
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/spec.md#1-1) の 1 から 50 行を読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/spec.md#1-1) の 1 から 50 行を読み取り
 
 ファイルが既に存在しますので、内容を置き換えます。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/spec.md) の読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/spec.md) の読み取り
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -40,9 +40,9 @@ Ran terminal command: .specify/scripts/bash/create-new-feature.sh --json "より
 ```
 完璧です!仕様書が作成されました。次に、仕様品質チェックリストを作成します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/checklists) が作成されました
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/checklists) が作成されました
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/checklists/requirements.md) が作成されました
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/checklists/requirements.md) が作成されました
 
 Markdown Lintのエラーを修正します。 
 

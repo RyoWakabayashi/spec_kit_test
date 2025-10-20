@@ -1,4 +1,4 @@
-RyoWakabayashi: Follow instructions in [speckit.plan.prompt.md](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.github/prompts/speckit.plan.prompt.md).
+RyoWakabayashi: Follow instructions in [speckit.plan.prompt.md](file://./speck_kit_test/.github/prompts/speckit.plan.prompt.md).
 mise で elixir と erlang の最新版をインストールし、mix phx.new コマンドで Phoenix LiveView プロジェクトを作成（--no-ectoを指定）。 JS と Elixir 間は Hook でデータをやり取りしてリアルタイムに処理してください
 
 GitHub Copilot: 指示に従って、Phase 0から順番に実施していきます。まず、setup-plan.shを実行して必要な情報を取得します。 
@@ -7,15 +7,15 @@ Ran terminal command: .specify/scripts/bash/setup-plan.sh --json
 
 次に、FEATURE_SPECとconstitution.mdを読み込みます。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/spec.md) の読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/spec.md) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/memory/constitution.md) の読み取り
+[](file://./speck_kit_test/.specify/memory/constitution.md) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/plan.md) の読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/plan.md) の読み取り
 
 続きのplan.mdを読み込みます。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/plan.md#110-110) の 110 から 110 行を読み取り
+[](file://./speck_kit_test/specs/001-browser-shooter-game/plan.md#110-110) の 110 から 110 行を読み取り
 
 plan.mdが既にコピーされたテンプレートですので、これを埋めていきます。まずTechnical Contextを作成します。 
 
@@ -51,21 +51,21 @@ Project Structureセクションを更新します。
 ```
 次にPhase 0のresearch.mdを作成します。NEEDS CLARIFICATIONの項目をリサーチします。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/research.md) が作成されました
+[](file://./speck_kit_test/specs/001-browser-shooter-game/research.md) が作成されました
 
 次にPhase 1としてdata-model.mdを作成します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/data-model.md) が作成されました
+[](file://./speck_kit_test/specs/001-browser-shooter-game/data-model.md) が作成されました
 
 次にcontractsディレクトリを作成し、LiveViewイベント契約を定義します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/contracts) が作成されました
+[](file://./speck_kit_test/specs/001-browser-shooter-game/contracts) が作成されました
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/contracts/liveview-events.md) が作成されました
+[](file://./speck_kit_test/specs/001-browser-shooter-game/contracts/liveview-events.md) が作成されました
 
 次にquickstart.mdを作成します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/001-browser-shooter-game/quickstart.md) が作成されました
+[](file://./speck_kit_test/specs/001-browser-shooter-game/quickstart.md) が作成されました
 
 次に、update-agent-context.shスクリプトを実行してエージェントコンテキストを更新します。 
 
@@ -105,13 +105,13 @@ Ran terminal command: mix phx.new shooter_game --no-ecto
 
 素晴らしい！プロジェクトが作成されました。次にゲーム用のディレクトリ構造を作成します。 
 
-Ran terminal command: cd /Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game && mkdir -p lib/shooter_game/game lib/shooter_game_web/live/components assets/js/hooks test/shooter_game/game test/shooter_game_web/live
+Ran terminal command: cd ./speck_kit_test/shooter_game && mkdir -p lib/shooter_game/game lib/shooter_game_web/live/components assets/js/hooks test/shooter_game/game test/shooter_game_web/live
 
 次にプロジェクト構造を確認します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game) の読み取り
+[](file://./speck_kit_test/shooter_game) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game) の読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game) の読み取り
 
 完璧です！最後に動作確認のため、サーバーを起動してみます。 
 

@@ -28,7 +28,7 @@
 - Include exact file paths in descriptions
 
 ## Path Conventions
-- Project root: `/Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/`
+- Project root: `./shooter_game/`
 - Source: `lib/shooter_game/game/`, `lib/shooter_game_web/live/`
 - Tests: `test/shooter_game/game/`, `test/shooter_game_web/live/`
 - Assets: `assets/js/hooks/`, `assets/css/`

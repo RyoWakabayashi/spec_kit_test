@@ -1,4 +1,4 @@
-RyoWakabayashi: Follow instructions in [speckit.plan.prompt.md](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.github/prompts/speckit.plan.prompt.md).
+RyoWakabayashi: Follow instructions in [speckit.plan.prompt.md](file://./speck_kit_test/.github/prompts/speckit.plan.prompt.md).
 日本語で応答してください
 
 GitHub Copilot: ご指示ありがとうございます。`speckit.plan.prompt.md`の手順に従って実行します。
@@ -9,13 +9,13 @@ Ran terminal command: .specify/scripts/bash/setup-plan.sh --json
 
 素晴らしい!JSONを解析できました。次に、必要なファイルを読み込みます。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/spec.md) の読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/spec.md) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/plan.md) の読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/plan.md) の読み取り
 
 `**/.specify/memory/constitution.md` に一致するファイルを検索しました。一致 2
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/memory/constitution.md) の読み取り
+[](file://./speck_kit_test/.specify/memory/constitution.md) の読み取り
 
 素晴らしい!コンテキストが全て揃いました。それでは、プランのフェーズ0から実行していきます。
 
@@ -23,31 +23,31 @@ Ran terminal command: .specify/scripts/bash/setup-plan.sh --json
 
 仕様書から技術的な詳細を分析し、研究が必要な項目を抽出します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game_web/live/game_live.ex#1-1) の 1 から 100 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game_web/live/game_live.ex#1-1) の 1 から 100 行を読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/state.ex) の読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/state.ex) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#1-1) の 1 から 100 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#1-1) の 1 から 100 行を読み取り
 
 それでは、`research.md`を作成します。既存のコードベースを理解した上で、必要な研究項目を文書化します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/research.md) が作成されました
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/research.md) が作成されました
 
 Markdownのリンティングエラーは無視して進めます。次にPhase 1に進み、データモデル、コントラクト、クイックスタートを作成します。
 
 ## Phase 1: Design & Contracts 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/data-model.md) が作成されました
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/data-model.md) が作成されました
 
 次にAPIコントラクトを作成します。Phoenix LiveViewのイベントとフック定義を含めます。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/contracts) が作成されました
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/contracts) が作成されました
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/contracts/liveview-events.md) が作成されました
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/contracts/liveview-events.md) が作成されました
 
 次に`quickstart.md`を作成します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/quickstart.md) が作成されました
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/quickstart.md) が作成されました
 
 最後に、plan.mdを更新してTechnical ContextとConstitution Checkを埋めます。 
 
@@ -95,13 +95,13 @@ Ran terminal command: .specify/scripts/bash/update-agent-context.sh copilot
 
 完璧です!最後に、生成されたファイルを確認します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling) の読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling) の読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/contracts) の読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/contracts) の読み取り
 
 完璧です!すべてのファイルが生成されました。最後に更新されたcopilot-instructions.mdを確認しましょう。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.github/copilot-instructions.md) の読み取り
+[](file://./speck_kit_test/.github/copilot-instructions.md) の読み取り
 
 完璧です!それでは、プランの完了報告をまとめます。
 
@@ -251,7 +251,7 @@ specs/002-enemy-difficulty-scaling/
 
 変更を行いました。
 
-RyoWakabayashi: Follow instructions in [speckit.tasks.prompt.md](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.github/prompts/speckit.tasks.prompt.md).
+RyoWakabayashi: Follow instructions in [speckit.tasks.prompt.md](file://./speck_kit_test/.github/prompts/speckit.tasks.prompt.md).
 
 GitHub Copilot: ご指示ありがとうございます。`speckit.tasks.prompt.md`の手順に従って実行します。
 
@@ -261,21 +261,21 @@ Ran terminal command: .specify/scripts/bash/check-prerequisites.sh --json
 
 素晴らしい!必要なドキュメントが全て揃っています。次に、これらのドキュメントを読み込みます。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/spec.md#1-1) の 1 から 100 行を読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/spec.md#1-1) の 1 から 100 行を読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/plan.md) の読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/plan.md) の読み取り
 
 次に、テンプレートとその他のドキュメントを読み込みます。 
 
 `**/.specify/templates/tasks-template.md` に一致するファイルを検索しました。一致 2
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.specify/templates/tasks-template.md#1-1) の 1 から 200 行を読み取り
+[](file://./speck_kit_test/.specify/templates/tasks-template.md#1-1) の 1 から 200 行を読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/data-model.md#1-1) の 1 から 100 行を読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/data-model.md#1-1) の 1 から 100 行を読み取り
 
 それでは、仕様に基づいてタスクリストを生成します。ユーザーストーリーの優先順位に従って整理します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md) が作成されました
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md) が作成されました
 
 完璧です!タスクファイルが生成されました。リンティングエラーは無視して進めます。最後に完了レポートを作成します。
 
@@ -499,7 +499,7 @@ specs/002-enemy-difficulty-scaling/
 
 変更を行いました。
 
-RyoWakabayashi: Follow instructions in [speckit.implement.prompt.md](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/.github/prompts/speckit.implement.prompt.md).
+RyoWakabayashi: Follow instructions in [speckit.implement.prompt.md](file://./speck_kit_test/.github/prompts/speckit.implement.prompt.md).
 
 GitHub Copilot: ご指示ありがとうございます。`speckit.implement.prompt.md`の手順に従って実装を開始します。
 
@@ -509,11 +509,11 @@ Ran terminal command: .specify/scripts/bash/check-prerequisites.sh --json --requ
 
 素晴らしい!タスクファイルが確認できました。次に、checklistsディレクトリの確認を行います。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/checklists) の読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/checklists) の読み取り
 
 checklistsディレクトリが存在します。チェックリストの状態を確認します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/checklists/requirements.md) の読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/checklists/requirements.md) の読み取り
 
 完璧です!チェックリストが全て完了しています。ステータステーブルを作成します。
 
@@ -531,7 +531,7 @@ checklistsディレクトリが存在します。チェックリストの状態�
 
 次に、実装コンテキストを読み込みます。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#1-1) の 1 から 100 行を読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#1-1) の 1 から 100 行を読み取り
 
 それでは、プロジェクトのセットアップ検証から開始します。gitリポジトリの確認と.gitignoreの検証を行います。 
 
@@ -541,7 +541,7 @@ gitリポジトリが存在します。.gitignoreの確認と必要に応じて�
 
 `**/.gitignore` に一致するファイルを検索しました。一致 2
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/.gitignore) の読み取り
+[](file://./speck_kit_test/shooter_game/.gitignore) の読み取り
 
 .gitignoreは適切に設定されています。次に、Phase 1のタスクを実行します。
 
@@ -549,7 +549,7 @@ gitリポジトリが存在します。.gitignoreの確認と必要に応じて�
 
 ### T001: Phoenix プロジェクト構造と依存関係の確認 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/mix.exs#1-1) の 1 から 50 行を読み取り
+[](file://./speck_kit_test/shooter_game/mix.exs#1-1) の 1 から 50 行を読み取り
 
 ✅ Phoenix プロジェクト構造確認完了
 
@@ -561,7 +561,7 @@ gitリポジトリが存在します。.gitignoreの確認と必要に応じて�
 
 ### T003: 既存テストスイートの実行 
 
-Ran terminal command: cd /Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game && mix test
+Ran terminal command: cd ./speck_kit_test/shooter_game && mix test
 
 ✅ **Phase 1完了**: すべてのテストがパス (35 tests, 0 failures)
 
@@ -577,21 +577,21 @@ tasks.mdを更新してPhase 1を完了としてマークします。
 
 ### T004: DifficultyLevel モジュールの作成 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/difficulty_level.ex) が作成されました
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/difficulty_level.ex) が作成されました
 
 ✅ T004完了
 
 ### T005: MovementPattern モジュールの作成 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/movement_pattern.ex) が作成されました
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/movement_pattern.ex) が作成されました
 
 ✅ T005完了
 
 ### T006 & T007: テストファイルの作成（並列実行可能） 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/test/shooter_game/game/difficulty_level_test.exs) が作成されました
+[](file://./speck_kit_test/shooter_game/test/shooter_game/game/difficulty_level_test.exs) が作成されました
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/test/shooter_game/game/movement_pattern_test.exs) が作成されました
+[](file://./speck_kit_test/shooter_game/test/shooter_game/game/movement_pattern_test.exs) が作成されました
 
 ✅ T006 & T007完了
 
@@ -599,7 +599,7 @@ tasks.mdを更新してPhase 1を完了としてマークします。
 
 ### T008: State モジュールの拡張 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/state.ex) の読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/state.ex) の読み取り
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -627,7 +627,7 @@ tasks.mdを更新してPhase 1を完了としてマークします。
 
 ### T009: Enemy モジュールの拡張 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#1-1) の 1 から 60 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#1-1) の 1 から 60 行を読み取り
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -637,9 +637,9 @@ tasks.mdを更新してPhase 1を完了としてマークします。
 ```
 次に、難易度対応の生成関数と移動更新関数を追加します。ファイルの末尾を確認します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#95-95) の 95 から 109 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#95-95) の 95 から 109 行を読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#105-105) の 105 から 115 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#105-105) の 105 から 115 行を読み取り
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -657,9 +657,9 @@ Ran terminal command: mix test test/shooter_game/game/difficulty_level_test.exs 
 
 警告が2件ありますので修正します: 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/movement_pattern.ex#156-156) の 156 から 175 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/movement_pattern.ex#156-156) の 156 から 175 行を読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#112-112) の 112 から 125 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#112-112) の 112 から 125 行を読み取り
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -681,7 +681,7 @@ Ran terminal command: mix test test/shooter_game/game/difficulty_level_test.exs 
 
 "ファイル内の文字列の置換" を使用しています
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#40-40) の 40 から 75 行を読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#40-40) の 40 から 75 行を読み取り
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -722,15 +722,15 @@ GitHub Copilot: Phase 3 (User Story 1 - MVP) を開始します!
 
 まず、T011とT012のテストを作成します。TDD方式で、実装前にテストを書きます。 既存のEnemyテストがないため、新規作成します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#1-1) の 1 から 100 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#1-1) の 1 から 100 行を読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#1-1) の 1 から 50 行を読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#1-1) の 1 から 50 行を読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#60-60) の 60 から 100 行を読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#60-60) の 60 から 100 行を読み取り
 
 ### T011: Enemy弾発射テストの作成 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/test/shooter_game/game/enemy_test.exs) が作成されました
+[](file://./speck_kit_test/shooter_game/test/shooter_game/game/enemy_test.exs) が作成されました
 
 ### T012: State弾衝突テストの作成
 
@@ -738,13 +738,13 @@ GitHub Copilot: Phase 3 (User Story 1 - MVP) を開始します!
 
 `**/state_test.exs` に一致するファイルを検索しました。一致するものはありません
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/test/shooter_game/game) の読み取り
+[](file://./speck_kit_test/shooter_game/test/shooter_game/game) の読み取り
 
 Stateテストがないため、新規作成します。衝突検出に関するテストを追加します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/state.ex#1-1) の 1 から 60 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/state.ex#1-1) の 1 から 60 行を読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/test/shooter_game/game/state_test.exs) が作成されました
+[](file://./speck_kit_test/shooter_game/test/shooter_game/game/state_test.exs) が作成されました
 
 テストを実行して、期待通り失敗することを確認します(TDD: Red phase)。 
 
@@ -760,7 +760,7 @@ Ran terminal command: mix test test/shooter_game/game/enemy_test.exs test/shoote
 
 次はT013に進みます。まず既存のEnemy機能を確認します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#67-67) の 67 から 95 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#67-67) の 67 から 95 行を読み取り
 
 ### T013: Enemy.can_fire?/1とfire_bullet/1の検証と修正
 
@@ -774,7 +774,7 @@ Ran terminal command: mix test test/shooter_game/game/enemy_test.exs test/shoote
 ```
 次に、Collisionモジュールに`bullets_to_player?/2`と`bullet_to_player?/2`を追加します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/collision.ex) の読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/collision.ex) の読み取り
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -784,7 +784,7 @@ Ran terminal command: mix test test/shooter_game/game/enemy_test.exs test/shoote
 ```
 次に、`State.should_increase_difficulty?/1`と`State.update_difficulty/1`を実装します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/state.ex#115-115) の 115 から 141 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/state.ex#115-115) の 115 から 141 行を読み取り
 
 既に実装されていますが、`should_increase_difficulty?/1`が`:playing`ステータスを要求しています。テストを修正します。 
 
@@ -885,25 +885,25 @@ GitHub Copilot: T014-T019の実装を進めます。まずGameLiveを確認し�
 
 `**/game_live.ex` に一致するファイルを検索しました。一致 2
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game_web/live/game_live.ex#1-1) の 1 から 100 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game_web/live/game_live.ex#1-1) の 1 から 100 行を読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game_web/live/game_live.ex#100-100) の 100 から 200 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game_web/live/game_live.ex#100-100) の 100 から 200 行を読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game_web/live/game_live.ex#200-200) の 200 から 300 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game_web/live/game_live.ex#200-200) の 200 から 300 行を読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game_web/live/game_live.ex#300-300) の 300 から 357 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game_web/live/game_live.ex#300-300) の 300 から 357 行を読み取り
 
 完璧! `handle_enemy_firing/1`は既に実装されています。ただし、敵弾がプレイヤーに当たってもダメージを与えていません。`detect_collisions/1`を確認すると、衝突時に即ゲームオーバーになっています。
 
 仕様を確認すると、プレイヤーは複数回のダメージに耐えられるべきです。Playerモジュールを確認します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/player.ex#1-1) の 1 から 50 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/player.ex#1-1) の 1 から 50 行を読み取り
 
 Playerにはhealthフィールドがありません。現在の実装では敵弾またはtesが衝突すると即座にゲームオーバーになります。
 
 このMVP(US1)では、この動作で問題ありません。T014-T018を確認しましょう。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#70-70) の 70 から 95 行を読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#70-70) の 70 から 95 行を読み取り
 
 GameLiveを確認した結果:
 - ✅ T014: `handle_enemy_firing/1` は既に実装済み
@@ -915,7 +915,7 @@ GameLiveを確認した結果:
 
 ### T017: GameCanvas hookで敵弾をレンダリング 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/assets/js/hooks/game_canvas.js) の読み取り
+[](file://./speck_kit_test/shooter_game/assets/js/hooks/game_canvas.js) の読み取り
 
 完璧! 敵弾のレンダリングも既に実装されています(80-84行目)。
 
@@ -983,7 +983,7 @@ GitHub Copilot: Phase 4 (User Story 2 - 難易度段階的上昇) を開始し�
 
 まず、タスク一覧を確認します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#90-90) の 90 から 150 行を読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#90-90) の 90 から 150 行を読み取り
 
 Phase 2で既に多くの基盤機能を実装済みです。Phase 4のタスクを確認すると:
 
@@ -1000,7 +1000,7 @@ Phase 2で既に多くの基盤機能を実装済みです。Phase 4のタスク
 
 既存のstate_test.exsに既に難易度テストがあります。追加が必要なテストを確認します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/test/shooter_game/game/state_test.exs#155-155) の 155 から 230 行を読み取り
+[](file://./speck_kit_test/shooter_game/test/shooter_game/game/state_test.exs#155-155) の 155 から 230 行を読み取り
 
 基本的なテストは既にあります。より詳細な統合テストを追加します。 
 
@@ -1012,9 +1012,9 @@ Phase 2で既に多くの基盤機能を実装済みです。Phase 4のタスク
 ```
 ### T021: GameLive統合テストの追加 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/test/shooter_game_web/live/game_live_test.exs#1-1) の 1 から 80 行を読み取り
+[](file://./speck_kit_test/shooter_game/test/shooter_game_web/live/game_live_test.exs#1-1) の 1 から 80 行を読み取り
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/test/shooter_game_web/live/game_live_test.exs#73-73) の 73 から 88 行を読み取り
+[](file://./speck_kit_test/shooter_game/test/shooter_game_web/live/game_live_test.exs#73-73) の 73 から 88 行を読み取り
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -1082,7 +1082,7 @@ Ran terminal command: mix test test/shooter_game/game/state_test.exs test/shoote
 
 `update_game_state/1`に難易度更新を統合します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game_web/live/game_live.ex#190-190) の 190 から 210 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game_web/live/game_live.ex#190-190) の 190 から 210 行を読み取り
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -1092,7 +1092,7 @@ Ran terminal command: mix test test/shooter_game/game/state_test.exs test/shoote
 ```
 次に、Spawnerが難易度設定を使用するように確認します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/spawner.ex) の読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/spawner.ex) の読み取り
 
 Spawnerを難易度対応に更新します。 
 
@@ -1170,7 +1170,7 @@ GitHub Copilot: Phase 5 (User Story 3 - 敵の複雑な移動パターン) を�
 
 Phase 2で既に基盤を実装済みなので、統合作業を進めます。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#130-130) の 130 から 180 行を読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#130-130) の 130 から 180 行を読み取り
 
 Phase 2で多くが完了済みです。確認して更新します。
 
@@ -1186,7 +1186,7 @@ Phase 2で多くが完了済みです。確認して更新します。
 
 ### T039: Enemy移動統合テストの追加 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/test/shooter_game/game/enemy_test.exs#100-100) の 100 から 126 行を読み取り
+[](file://./speck_kit_test/shooter_game/test/shooter_game/game/enemy_test.exs#100-100) の 100 から 126 行を読み取り
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -1200,7 +1200,7 @@ Ran terminal command: mix test test/shooter_game/game/enemy_test.exs
 
 `calculate_health/1`はDifficultyLevelオブジェクトを期待していますが、テストでは整数を渡しています。修正します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#145-145) の 145 から 160 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game/game/enemy.ex#145-145) の 145 から 160 行を読み取り
 
 テストを修正します。 
 
@@ -1220,7 +1220,7 @@ Ran terminal command: mix test test/shooter_game/game/enemy_test.exs
 
 Spawnerは既に移動パターンを選択しているので、GameLiveで`update_enemies/1`を拡張します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/shooter_game/lib/shooter_game_web/live/game_live.ex#210-210) の 210 から 220 行を読み取り
+[](file://./speck_kit_test/shooter_game/lib/shooter_game_web/live/game_live.ex#210-210) の 210 から 220 行を読み取り
 
 "ファイル内の文字列の置換" を使用しています
 
@@ -1270,7 +1270,7 @@ tasks.mdを最終更新します。
 ```
 最終サマリーを生成します。 
 
-[](file:///Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#1-1) の 1 から 30 行を読み取り
+[](file://./speck_kit_test/specs/002-enemy-difficulty-scaling/tasks.md#1-1) の 1 から 30 行を読み取り
 
 "ファイル内の文字列の置換" を使用しています
 

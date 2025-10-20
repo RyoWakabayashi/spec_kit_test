@@ -39,9 +39,6 @@ mise --version
 ## Step 2: Install Elixir and Erlang
 
 ```bash
-# プロジェクトディレクトリに移動
-cd /Users/rwakabay/dev/elixir/speck_kit_test/speck_kit_test
-
 # 最新版のElixirとErlangをインストール
 mise install elixir@latest erlang@latest
 
